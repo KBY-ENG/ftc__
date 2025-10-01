@@ -21,6 +21,7 @@ public class ftc extends LinearOpMode {
                 //gamepad1.a?mo.setPower(1.0):mo.setPower(0.0);
                 //mo.setPower((-gamepad1.left_stick_y+1)/2);
                 mo.setPower(gamepad1.x?(1.0):(0.0));
+                //
 
             }
         }
